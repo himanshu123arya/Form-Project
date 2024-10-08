@@ -1,0 +1,94 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+h1{
+    text-align:center;
+    text-transform:uppercase;
+    color:dimgray;
+
+}
+form{
+    width:380px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border:3px solid #f1f1f1;
+    border-radius:10px;
+    box-shadow:0 10px 20px #ABB289;
+    overflow:hidden;
+
+
+}
+
+.imgcontainer{
+    text-align:center;
+    margin:24px 0 12px;
+
+
+}
+.imgcontainer img{
+    width:40%;
+    border-radius:50%;
+
+}
+.container{
+    padding:16px;
+
+}
+input[type=text], input[type=password]{
+    width:100%;
+    margin:8px 0;
+    padding:12px 20px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+
+}
+label[for=username], lable[for=password]{
+    font-weight:bold;
+}
+button{
+    border:none;
+    cursor:pointer;
+    margin:8px 0;
+
+    
+}
+.login-btn{
+    font-size:14px;
+    font-weight:bold;
+    padding:14px 20px;
+    background-image:linear-gradient(to right,#2193b0 , #6dd5ed);
+    color:white;
+    transition:#fff;
+    text-transform:uppercase;
+    width:100%;
+
+
+}
+.login-btn:hover{
+    background-image: linear-gradient(to right, #6dd5ed , #2193b0);
+
+}
+.cancel-btn{
+    color:white;
+    background-color:#f44336;
+    padding:10px 18px;
+    transition:0.3s;
+
+
+}
+.cancel-btn:hover{
+
+    opacity:0.8s;
+
+}
+.container a{
+    float:right;
+    padding-top:16px;
+    font-size:15px;
+    text-decoration:none;
+    color:#666669;
+
+}
